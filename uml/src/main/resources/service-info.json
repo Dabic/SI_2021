@@ -1,0 +1,109 @@
+{
+  "name": "uml",
+  "domain": "localhost",
+  "port": "8083",
+  "endpoints": [
+    {
+      "name": "uml_read",
+      "method": "GET",
+      "path": "/read",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {}
+    },
+    {
+      "name": "uml_save",
+      "method": "POST",
+      "path": "/save",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {
+        "metaSchemeKeys": [
+          {
+            "name": "cao",
+            "metaSchemeValue": {
+              "name": "cao val"
+            }
+          },
+          {
+            "name": "ca2",
+            "metaSchemeValue": {
+              "name": "cao2 val"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "uml_update",
+      "method": "POST",
+      "path": "/update",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {
+        "metaSchemeKeys": [
+          {
+            "name": "cao",
+            "metaSchemeValue": {
+              "name": "cao val"
+            }
+          },
+          {
+            "name": "ca2",
+            "metaSchemeValue": {
+              "name": "cao2 val"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "uml_delete",
+      "method": "POST",
+      "path": "/delete",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {
+        "metaSchemeKeys": [
+          {
+            "name": "cao",
+            "metaSchemeValue": {
+              "name": "cao val"
+            }
+          },
+          {
+            "name": "ca2",
+            "metaSchemeValue": {
+              "name": "cao2 val"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "uml_list",
+      "method": "GET",
+      "path": "/list",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {
+
+      }
+    }
+  ]
+}

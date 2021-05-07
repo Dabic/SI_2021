@@ -1,0 +1,15 @@
+.TreeViewItem {
+    font-size: 17px;
+}
+.TreeViewItem.model:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.TreeViewItem.team {
+    box-sizing: border-box;
+}
+.TreeViewItem.model {
+    padding-left: 15px;
+    box-sizing: border-box;
+}

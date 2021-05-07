@@ -1,0 +1,9 @@
+.RqmToolbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}

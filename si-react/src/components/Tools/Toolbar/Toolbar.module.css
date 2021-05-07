@@ -1,0 +1,25 @@
+.Toolbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 200;
+    background-color: #f6f6f6;
+}
+.Delete {
+    background: salmon;
+    width: 100%;
+    border-radius: 0;
+}
+.Delete:hover {
+    background-color: red;
+}
+.ModelName {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ccc;
+}

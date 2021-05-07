@@ -1,0 +1,29 @@
+.ClassIcon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.ClassIcon:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
+.ClassIcon.class{
+    background-color: lightblue;
+}
+.ClassIcon.interface{
+    background-color: #ffe268;
+}
+.ClassIcon.enum{
+    background-color: salmon;
+}
+.ClassIcon.actor{
+    background-color: black;
+    color: white;
+}
+.ClassIcon.story{
+    background-color: #ffe268;
+}

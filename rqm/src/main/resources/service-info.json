@@ -1,0 +1,51 @@
+{
+  "name": "rqm",
+  "domain": "localhost",
+  "port": "8081",
+  "endpoints": [
+    {
+      "name": "rqm_read",
+      "method": "GET",
+      "path": "/read",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {}
+    },
+    {
+      "name": "rqm_save",
+      "method": "POST",
+      "path": "/save",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {}
+    },
+    {
+      "name": "rqm_delete",
+      "method": "GET",
+      "path": "/delete",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {}
+    },
+    {
+      "name": "rqm_list",
+      "method": "GET",
+      "path": "/list",
+      "roles": [
+        {
+          "name": "USER"
+        }
+      ],
+      "endpointMetaScheme": {}
+    }
+  ]
+}
